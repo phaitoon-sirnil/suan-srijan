@@ -1,0 +1,18 @@
+{
+  "name": "nodereddemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red",
+    "debug": "node-red --inspector --settings ./.node-red/settings.js --userDir ./.node-red",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": "^1.1.2",
+    "node-red-contrib-salesforce": "^0.7.3",
+    "node-red-dashboard": "^2.23.0"
+  }
+}
