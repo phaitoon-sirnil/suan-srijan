@@ -62,7 +62,7 @@ module.exports = {
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
     //flowFile: 'flows.json',
-    flowFile: (process.env.NODE_RED_FLOWFILE) ? process.env.NODE_RED_FLOWFILE : 'flows.json',
+    // flowFile: (process.env.NODE_RED_FLOWFILE) ? process.env.NODE_RED_FLOWFILE : 'flows.json',
 
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:
@@ -126,15 +126,23 @@ module.exports = {
     //    }]
     //},
 
+    // adminAuth: {
+    //     type: 'credentials',
+    //     users: [{
+    //         username: process.env.NODE_RED_USERNAME,
+    //         password: process.env.NODE_RED_PASSWORD,
+    //         permissions: '*'
+    //     }]
+    // },
+
     adminAuth: {
         type: 'credentials',
         users: [{
-            username: process.env.NODE_RED_USERNAME,
-            password: process.env.NODE_RED_PASSWORD,
+            username: "phaitoon",
+            password: "phaitoon",
             permissions: '*'
         }]
     },
-    
     // To password protect the node-defined HTTP endpoints (httpNodeRoot), or
     // the static content (httpStatic), the following properties can be used.
     // The pass field is a bcrypt hash of the password.
