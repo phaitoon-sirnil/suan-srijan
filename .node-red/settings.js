@@ -126,23 +126,23 @@ module.exports = {
     //    }]
     //},
 
-    // adminAuth: {
-    //     type: 'credentials',
-    //     users: [{
-    //         username: process.env.NODE_RED_USERNAME,
-    //         password: process.env.NODE_RED_PASSWORD,
-    //         permissions: '*'
-    //     }]
-    // },
-
     adminAuth: {
         type: 'credentials',
         users: [{
-            username: "phaitoon",
-            password: "phaitoon",
+            username: process.env.NODE_RED_USERNAME,
+            password: process.env.NODE_RED_PASSWORD,
             permissions: '*'
         }]
     },
+
+    // adminAuth: {
+    //     type: 'credentials',
+    //     users: [{
+    //         username: "phaitoon",
+    //         password: "phaitoon",
+    //         permissions: '*'
+    //     }]
+    // },
 
     // To password protect the node-defined HTTP endpoints (httpNodeRoot), or
     // the static content (httpStatic), the following properties can be used.
