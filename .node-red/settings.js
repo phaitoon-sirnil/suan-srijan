@@ -120,8 +120,9 @@ module.exports = {
     adminAuth: {
        type: "credentials",
        users: [{
-           username: "admin",
+        //    username: "admin",
         //    password: "$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN.",
+           username: "phaitoon",
            password: "$2b$08$l.F6VbjXbue5bbfD2idOiOZQxPZUzFqZLV6zC1VKtUuM/YiksWux.",
            permissions: "*"
        }]
