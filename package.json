@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-red": "^1.1.2",
+    "node-red": "^3.0.2",
     "node-red-contrib-salesforce": "^0.7.3",
     "node-red-dashboard": "^2.23.0",
     "node-red-node-mysql": "^0.1.1"
